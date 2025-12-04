@@ -10,8 +10,7 @@ async function bootstrap() {
   const port = process.env.PORT || 3001;
   app.enableCors({
     origin: [
-      "http://localhost:3001",
-      "http://192.168.10.109:3000"
+      "https://projectnestjs.onrender.com"
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
